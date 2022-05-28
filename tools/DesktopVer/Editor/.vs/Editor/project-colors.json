@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f19cb053-3999-4c8b-9d12-29c67fd7a874": {
+      "ProjectGuid": "f19cb053-3999-4c8b-9d12-29c67fd7a874",
+      "DisplayName": "Editor",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

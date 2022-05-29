@@ -1,0 +1,14 @@
+characters={
+	XPC_liu_wenhui={
+		name=liu_wenhui
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}

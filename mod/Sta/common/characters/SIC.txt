@@ -1,0 +1,14 @@
+characters={
+	SIC_liu_xiang={
+		name=liu_xiang
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}

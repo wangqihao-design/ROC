@@ -1,0 +1,19 @@
+ss_decision_category_chi_central_committee = {
+	#icon = army_reform
+	#priority = 100
+	scripted_gui = ss_chi_central_committee_gui
+	allowed = {
+		#is_literally_china = yes #从我那个ROC重置mod里复制的，忘了是用来干什么的，反正好像有什么用
+		original_tag = CHI
+	}
+
+	available = { 
+        
+    } 
+
+	visible = {
+		original_tag = CHI
+	}
+
+	visible_when_empty = yes
+}

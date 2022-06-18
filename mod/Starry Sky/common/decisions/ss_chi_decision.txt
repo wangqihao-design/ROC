@@ -1,0 +1,28 @@
+ss_decision_category_chi_central_committee = {
+    ss_decision_category_chi_central_committee_decision_ = { 
+        days_remove = 180
+
+        visible = { 
+            original_tag = CHI
+        } 
+
+        available = {
+			command_power > 10
+		}
+
+        cost = 100
+
+        custom_cost_trigger = { 
+            command_power > 10 
+        } 
+        #custom_cost_text = 
+
+        ai_will_do = {
+			factor = 50
+		}
+
+        complete_effect = { 
+            
+        } 
+    }
+}

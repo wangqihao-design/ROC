@@ -1,0 +1,161 @@
+#从TNO的立法院gui改的
+scripted_gui = {
+	ss_chi_central_committee_gui = { 
+		context_type = decision_category
+		window_name = "ss_chi_central_committee_gui"
+		#dirty = TNO_CHI_LegYuan_GUI_dirty #不知道什么意思
+		visible = {
+			tag = CHI
+		}
+		effects = {
+			CHI_LegYuan_Japanophile_interactions_click = {
+				if = {
+					limit = { check_variable = { CHI_faction_visible = 1 } }
+					clear_variable = CHI_faction_visible
+				}
+				else = {
+					set_variable = { CHI_faction_visible = 1 }
+				}
+		}
+		triggers = {
+			
+			
+		}
+		properties = {
+			
+		}
+	}
+}
+
+#参考（TNO立法院原文件）
+#TNO_CHI_LegYuan_GUI = { 
+#	context_type = decision_category
+#	window_name = "TNO_CHI_LegYuan_GUI"
+#	dirty = TNO_CHI_LegYuan_GUI_dirty
+#	visible = {
+#		tag = CHI
+#	}
+#	effects = {
+#		CHI_LegYuan_Japanophile_interactions_click = {
+#			if = {
+#				limit = { check_variable = { CHI_faction_visible = 1 } }
+#				clear_variable = CHI_faction_visible
+#			}
+#			else = {
+#				set_variable = { CHI_faction_visible = 1 }
+#			}
+#		}
+#		CHI_LegYuan_Old_Guard_interactions_click = {
+#			if = {
+#				limit = { check_variable = { CHI_faction_visible = 2 } }
+#				clear_variable = CHI_faction_visible
+#			}
+#			else = {
+#				set_variable = { CHI_faction_visible = 2 }
+#			}
+#		}
+#		CHI_LegYuan_Reformist_interactions_click = {
+#			if = {
+#				limit = { check_variable = { CHI_faction_visible = 3 } }
+#				clear_variable = CHI_faction_visible
+#			}
+#			else = {
+#				set_variable = { CHI_faction_visible = 3 }
+#			}
+#		}
+#		CHI_LegYuan_NSB_interactions_click = {
+#			if = {
+#				limit = { check_variable = { CHI_faction_visible = 4 } }
+#				clear_variable = CHI_faction_visible
+#			}
+#			else = {
+#				set_variable = { CHI_faction_visible = 4 }
+#			}
+#		}
+#		CHI_LegYuan_GUI_decrease_pp_click = {
+#			add_to_variable = { CHI_LegYuan_GUI_invest_pp = -5 }
+#			add_to_variable = { TNO_CHI_LegYuan_GUI_dirty = 1 }
+#		}
+#		CHI_LegYuan_GUI_increase_pp_click = {
+#			add_to_variable = { CHI_LegYuan_GUI_invest_pp = 5 }
+#			add_to_variable = { TNO_CHI_LegYuan_GUI_dirty = 1 }
+#		}
+#		CHI_LegYuan_GUI_decrease_money_click = {
+#			add_to_variable = { CHI_LegYuan_GUI_invest_money = -25 }
+#			add_to_variable = { TNO_CHI_LegYuan_GUI_dirty = 1 }
+#		}
+#		CHI_LegYuan_GUI_increase_money_click = {
+#			add_to_variable = { CHI_LegYuan_GUI_invest_money = 25 }
+#			add_to_variable = { TNO_CHI_LegYuan_GUI_dirty = 1 }
+#		}
+#		CHI_LegYuan_GUI_invest_click = {
+#			CHI_NSB_invest_calc = yes
+#		}
+#	}
+#	triggers = {
+#		CHI_LegYuan_GUI_4_visible = {
+#			hidden_trigger = {
+#				has_country_flag = CHI_NSB_initialized
+#			}
+#		}
+#		CHI_LegYuan_GUI_invest_click_enabled = {
+#			hidden_trigger = {
+#				set_temp_variable = { CHI_LegYuan_GUI_invest_pp_confirmed = CHI_LegYuan_GUI_invest_pp }
+#				subtract_from_temp_variable = { CHI_LegYuan_GUI_invest_pp_confirmed = 0.01 }
+#				has_country_flag = CHI_NSB_initialized
+#				OR = {
+#					AND = {
+#						check_variable = { CHI_LegYuan_GUI_invest_money > 0 }
+#						if = {
+#							limit = { check_variable = { CHI_LegYuan_GUI_invest_pp > 0 } }
+#							has_political_power > CHI_LegYuan_GUI_invest_pp_confirmed
+#						}
+#					}
+#					AND = {
+#						check_variable = { CHI_LegYuan_GUI_invest_pp > 0 }
+#						has_political_power > CHI_LegYuan_GUI_invest_pp_confirmed
+#					}
+#				}
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = CHI_LegYuan_GUI_invest_click_enabled_2_tt
+#				NOT = { has_country_flag = CHI_NSB_invest_cooldown }
+#			}
+#			NOT = { has_country_flag = ECON_ONGOING_FISCAL_CRISIS }
+#		}
+#		CHI_LegYuan_GUI_increase_pp_click_enabled = {
+#			NOT = { check_variable = { CHI_LegYuan_GUI_invest_pp = 50 } }
+#		}
+#		CHI_LegYuan_GUI_decrease_pp_click_enabled = {
+#			NOT = { check_variable = { CHI_LegYuan_GUI_invest_pp = 0 } }
+#		}
+#		CHI_LegYuan_GUI_increase_money_click_enabled = {
+#			NOT = { check_variable = { CHI_LegYuan_GUI_invest_money = 250 } }
+#		}
+#		CHI_LegYuan_GUI_decrease_money_click_enabled = {
+#			NOT = { check_variable = { CHI_LegYuan_GUI_invest_money = 0 } }
+#		}
+#	}
+#	properties = {
+#		CHI_LegYuan_Japanophile_Influence = {
+#			frame = CHI_GUI_pro_japan_influence
+#		}
+#		CHI_LegYuan_Japanophile_Opinion = {
+#			frame = faction_pro_japan_opinion 
+#		}
+#		CHI_LegYuan_Old_Guard_Influence = {
+#			frame = CHI_GUI_old_guard_influence
+#		}
+#			frame = faction_old_guard_opinion 
+#		}
+#		CHI_LegYuan_Reformist_Influence = {
+#			frame = CHI_GUI_reformist_influence
+#		}
+#		CHI_LegYuan_Reformist_Opinion = {
+#			frame = faction_reformist_opinion 
+#		}
+#		CHI_LegYuan_NSB_Effectiveness = {
+#			frame = CHI_GUI_NSB_effectiveness
+#		}
+#	}
+#}

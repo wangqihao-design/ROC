@@ -1,0 +1,288 @@
+guiTypes = {  
+	#中央委员会
+	containerWindowType = {
+		name = "ss_chi_central_committee_gui"
+		size = { width = 482 height = 650 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "ss_chi_central_committee_gui_orthodox_flag"
+			quadTextureSprite = "GFX_chi_central_committee_gui_orthodox_flag"
+			position = { x = 27 y = 80 }
+		}
+		buttonType = {
+			name = "ss_chi_central_committee_gui_federalist_flag"
+			quadTextureSprite = "GFX_chi_central_committee_gui_federalist_flag"
+			position = { x = 192.5 y = 80 }
+		}
+		buttonType = {
+			name = "ss_chi_central_committee_gui_conservative_flag"
+			quadTextureSprite = "GFX_chi_central_committee_gui_conservative_flag"
+			position = { x = 360 y = 80 }
+		}
+
+		iconType = {
+			name = "ss_chi_central_committee_gui_title"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_chi_central_committee_gui_title"
+			#pdx_tooltip = CHI_LegYuan_GUI_desc
+		}
+		iconType = {
+			name = "ss_chi_central_committee_gui_word_zhengtong"
+			position = { x = 27 y = 158 }
+			quadTextureSprite = "GFX_chi_central_committee_gui_word_zhengtong"
+			#pdx_tooltip = CHI_LegYuan_GUI_desc
+		}
+		iconType = {
+			name = "ss_chi_central_committee_gui_word_liansheng"
+			position = { x = 192.5 y = 158 }
+			quadTextureSprite = "GFX_chi_central_committee_gui_word_liansheng"
+			#pdx_tooltip = CHI_LegYuan_GUI_desc
+		}
+		iconType = {
+			name = "ss_chi_central_committee_gui_word_baoshou"
+			position = { x = 360 y = 158 }
+			quadTextureSprite = "GFX_chi_central_committee_gui_word_baoshou"
+			#pdx_tooltip = CHI_LegYuan_GUI_desc
+		}
+
+		iconType = {
+			name = "ss_chi_central_committee_gui_word_dangzheng"
+			position = { x = 100 y = 260 }
+			quadTextureSprite = "GFX_chi_central_committee_gui_word_dangzheng"
+			#pdx_tooltip = CHI_LegYuan_GUI_desc
+		}
+
+		buttonType = {
+			name = "ss_chi_central_committee_gui_button_minus_dangzheng"
+			quadTextureSprite = "GFX_chi_central_committee_gui_button_minus"
+			position = { x = 120 y = 390 }
+		}
+		buttonType = {
+			name = "ss_chi_central_committee_gui_button_plus_dangzheng"
+			quadTextureSprite = "GFX_chi_central_committee_gui_button_plus"
+			position = { x = 375 y = 390 }
+		}
+
+		iconType = {
+			name = "ss_chi_central_committee_gui_word_junwu"
+			position = { x = 100 y = 470 }
+			quadTextureSprite = "GFX_chi_central_committee_gui_word_junwu"
+			#pdx_tooltip = CHI_LegYuan_GUI_desc
+		}
+
+		buttonType = {
+			name = "ss_chi_central_committee_gui_button_minus_junwu"
+			quadTextureSprite = "GFX_chi_central_committee_gui_button_minus"
+			position = { x = 120 y = 600 }
+		}
+		buttonType = {
+			name = "ss_chi_central_committee_gui_button_plus_junwu"
+			quadTextureSprite = "GFX_chi_central_committee_gui_button_plus"
+			position = { x = 375 y = 600 }
+		}
+	}
+}
+
+
+
+
+#guiTypes = {  
+	# LegYuan GUI
+	containerWindowType = {
+		name = "TNO_CHI_LegYuan_GUI"
+		size = { width = 482 height = 650 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "CHI_LegYuan_GUI_overview"
+			position = { x = 10 y = 20 }
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_overview"
+			#pdx_tooltip = CHI_LegYuan_GUI_desc
+			#scale = 0.9
+		}
+		iconType = {
+			name = "CHI_LegYuan_GUI_info"
+			position = { x = 445 y = 72 }
+			quadTextureSprite = "GFX_SGR_RND_GUI_info_button"
+			pdx_tooltip = CHI_LegYuan_GUI_desc
+			scale = 0.8
+		}
+		iconType = {
+			name = "CHI_LegYuan_Japanophile_Influence"
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_japanophile_Influence"
+			position = { x = 20 y = 41 }
+			pdx_tooltip = CHI_GUI_Influence_tt
+		}
+
+		iconType = {
+			name = "CHI_LegYuan_Reformist_Influence"
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_reformist_Influence"
+			position = { x = 20 y = 41 }
+			pdx_tooltip = CHI_GUI_Influence_check_tt
+		}
+		instantTextboxType = {
+			name = "CHI_LegYuan_GUI_Japanophile_modifier"
+			position = { x = 150 y = 150 }
+			font = "aldrich_22_outline"
+			text = CHI_LegYuan_GUI_Japanophile_modifier_t
+		}
+
+		instantTextboxType = {
+			name = "CHI_LegYuan_GUI_Old_Guard_modifier"
+			position = { x = 150 y = 370 }
+			font = "aldrich_22_outline"
+			text = CHI_LegYuan_GUI_Old_Guard_modifier_t
+		}
+
+		instantTextboxType = {
+			name = "CHI_LegYuan_GUI_Reformist_modifier"
+			position = { x = 270 y = 150 }
+			font = "aldrich_22_outline"
+			text = CHI_LegYuan_GUI_Reformist_modifier_t
+		}
+		iconType = {
+			name = "CHI_LegYuan_GUI_1"
+			position = { x = 145 y = 230 }
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction"
+			frame = 1
+			pdx_tooltip = CHI_LegYuan_GUI_Japanophile_desc
+		}
+		iconType = {
+			name = "CHI_LegYuan_GUI_2"
+			position = { x = 145 y = 285 }
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction"
+			frame = 2
+			pdx_tooltip = CHI_LegYuan_GUI_Old_Guard_desc
+		}
+		iconType = {
+			name = "CHI_LegYuan_GUI_3"
+			position = { x = 310 y = 230 }
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction"
+			frame = 3
+			pdx_tooltip = CHI_LegYuan_GUI_Reformist_desc
+		}
+		iconType = {
+			name = "CHI_LegYuan_GUI_4"
+			position = { x = 305 y = 285 }
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction"
+			frame = 4
+			pdx_tooltip = CHI_LegYuan_GUI_NSB_desc
+		}
+		iconType = {
+			name = "CHI_LegYuan_Japanophile_interactions"
+			position = { x = 207 y = 225 }
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction_interaction"
+			frame = 1
+			pdx_tooltip = CHI_GUI_Japanophile_interactions_tt
+		}
+		iconType = {
+			name = "CHI_LegYuan_Old_Guard_interactions"
+			position = { x = 207 y = 280 }
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction_interaction"
+			frame = 2
+			pdx_tooltip = CHI_GUI_Old_Guard_interactions_tt
+		}
+		iconType = {
+			name = "CHI_LegYuan_Reformist_interactions"
+			position = { x = 256 y = 225 }
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Faction_interaction"
+			frame = 3
+			pdx_tooltip = CHI_GUI_Reformist_interactions_tt
+		}
+		iconType = {
+			name = "CHI_LegYuan_GUI_interaction_4"
+			position = { x = 260 y = 285 }
+			quadTextureSprite = "GFX_decision_target_document"
+			#pdx_tooltip = CHI_LegYuan_GUI_Reformist_desc
+		}
+		iconType = {
+			name = "CHI_LegYuan_Japanophile_Opinion"
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Japanophile_Opinion"
+			position = { x = 17 y = 116 }
+			pdx_tooltip = CHI_GUI_Japanophile_Opinion_tt
+		}
+		iconType = {
+			name = "CHI_LegYuan_Old_Guard_Opinion"
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Oldguard_Opinion"
+			position = { x = 90 y = 116 }
+			pdx_tooltip = CHI_GUI_Old_Guard_Opinion_tt
+		}
+		iconType = {
+			name = "CHI_LegYuan_Reformist_Opinion"
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_Reformist_Opinion"
+			position = { x = 377 y = 116 }
+			pdx_tooltip = CHI_GUI_Reformist_Opinion_tt
+		}		
+		iconType = {
+			name = "CHI_LegYuan_NSB_Effectiveness"
+			quadTextureSprite = "GFX_CHI_LegYuan_GUI_NSB_Effectiveness"
+			position = { x = 449 y = 116 }
+			pdx_tooltip = CHI_GUI_NSB_effectiveness_tt
+		}
+		
+		instantTextboxType = {
+			name = "CHI_LegYuan_GUI_modifiers"
+			position = { x = 11 y = 575 }
+			font = "aldrich_20_outline"
+			text = CHI_LegYuan_GUI_modifiers_tt
+			maxWidth = 480
+		}
+
+		containerWindowType = {
+			name = "TNO_CHI_NSB_GUI"
+			size = { width = 482 height = 100 }
+			position = { x = 0 y = 470 }
+	
+			buttonType = {
+				name = "CHI_LegYuan_GUI_invest"
+				position = { x = 210 y = 40 }
+				quadTextureSprite ="GFX_SGR_RND_GUI_invest_button"
+				pdx_tooltip = CHI_LegYuan_GUI_invest_tt
+			}
+			buttonType = {
+				name = "CHI_LegYuan_GUI_decrease_pp"
+				quadTextureSprite = "GFX_SGR_RND_GUI_decrease_budget_button"
+				position = { x = 70 y = 40 }
+				#pdx_tooltip = SGR_decrease_pp_button_tt
+			}
+			buttonType = {
+				name = "CHI_LegYuan_GUI_increase_pp"
+				quadTextureSprite = "GFX_SGR_RND_GUI_increase_budget_button"
+				position = { x = 100 y = 40 }
+				#pdx_tooltip = SGR_increase_pp_button_tt
+			}
+			instantTextBoxType = {
+				name = "CHI_LegYuan_GUI_pp"
+				position = { x = 10 y = 0 }
+				text = CHI_LegYuan_GUI_pp
+				font = "aldrich_20_outline"
+				maxWidth = 220
+				maxHeight = 25
+				pdx_tooltip = CHI_LegYuan_GUI_pp_tt
+			}
+			buttonType = {
+				name = "CHI_LegYuan_GUI_decrease_money"
+				quadTextureSprite = "GFX_SGR_RND_GUI_decrease_budget_button"
+				position = { x = 380 y = 40 }
+				#pdx_tooltip = SGR_decrease_budget_button_tt
+			}
+			buttonType = {
+				name = "CHI_LegYuan_GUI_increase_money"
+				quadTextureSprite = "GFX_SGR_RND_GUI_increase_budget_button"
+				position = { x = 410 y = 40 }
+				#pdx_tooltip = SGR_increase_budget_button_tt
+			}
+			instantTextBoxType = {
+				name = "CHI_LegYuan_GUI_money"
+				position = { x = 350 y = 0 }
+				text = CHI_LegYuan_GUI_money
+				font = "aldrich_20_outline"
+				maxWidth = 220
+				maxHeight = 25
+				pdx_tooltip = CHI_LegYuan_GUI_money_tt
+			}
+		}
+	}
+#}
+

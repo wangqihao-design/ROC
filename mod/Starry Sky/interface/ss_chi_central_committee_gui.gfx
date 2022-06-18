@@ -1,0 +1,168 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_orthodox_flag"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/orthodox_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_federalist_flag"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/federalist_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_conservative_flag"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/conservative_flag.dds"
+	}
+
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_title"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/title.dds"
+	}
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_word_zhengtong"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/word_zhengtong.dds"
+	}
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_word_liansheng"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/word_liansheng.dds"
+	}
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_word_baoshou"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/word_baoshou.dds"
+	}
+
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_word_dangzheng"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/word_dangzheng.dds"
+	}
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_word_junwu"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/word_junwu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_button_minus"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/button_minus.dds"
+	}
+	spriteType = {
+		name = "GFX_chi_central_committee_gui_button_plus"
+		texturefile = "gfx/interface/chi_gui/central_committee_gui/button_plus.dds"
+	}
+
+}
+
+
+#TNO LegYuan 原文件
+#spriteTypes = {
+
+	### LEGYUAN GUI ##
+	#spriteType = {
+		name = "GFX_CHI_LegYuan_GUI_overview"
+		texturefile = "gfx/interface/chi_gui/CHI_legyuan.dds"
+	#}
+	#spriteType = {
+		name = "GFX_CHI_LegYuan_GUI_Faction"
+		texturefile = "gfx/interface/chi_gui/CHI_LegYuan_faction.dds"
+		noOfFrames = 4
+	#}
+	#spriteType = {
+		name = "GFX_CHI_LegYuan_GUI_Faction_2"
+		texturefile = "gfx/interface/chi_gui/CHI_LegYuan_faction_2.dds"
+		noOfFrames = 4
+	#}
+	#spriteType = {
+		name = "GFX_CHI_LegYuan_GUI_Faction_interaction"
+		texturefile = "gfx/interface/chi_gui/CHI_LegYuan_faction_interaction.dds"
+		noOfFrames = 3
+	#}
+
+	#progressbartype = {
+		name = "GFX_CHI_LegYuan_GUI_japanophile_Influence"
+		textureFile1 = "gfx/interface/chi_gui/LegYuan_japanophile_influence.dds"
+		textureFile2 = "gfx/interface/chi_gui/LegYuan_oldguard_influence.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 463
+			y = 21
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	#}
+	#progressbartype = {
+		name = "GFX_CHI_LegYuan_GUI_oldguard_Influence"
+		textureFile1 = "gfx/interface/chi_gui/LegYuan_oldguard_influence.dds"
+		textureFile2 = "gfx/interface/chi_gui/LegYuan_influence_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 463
+			y = 21
+		}
+		effectFile = "gfx/FX/progress_reverse.lua"
+		horizontal = yes
+	#}
+	#progressbartype = {
+		name = "GFX_CHI_LegYuan_GUI_reformist_Influence"
+		textureFile1 = "gfx/interface/chi_gui/LegYuan_reformist_influence.dds"
+		textureFile2 = "gfx/interface/chi_gui/LegYuan_influence_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 463
+			y = 21
+		}
+		effectFile = "gfx/FX/progress_reverse.lua"
+		horizontal = yes
+	#}
+	#progressbartype = {
+		name = "GFX_CHI_LegYuan_GUI_Japanophile_Opinion"
+		textureFile1 = "gfx/interface/chi_gui/LegYuan_Japanophile_Opinion.dds"
+		textureFile2 = "gfx/interface/chi_gui/LegYuan_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 38
+			y = 317
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	#}
+	#progressbartype = {
+		name = "GFX_CHI_LegYuan_GUI_Oldguard_Opinion"
+		textureFile1 = "gfx/interface/chi_gui/LegYuan_Oldguard_Opinion.dds"
+		textureFile2 = "gfx/interface/chi_gui/LegYuan_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 38
+			y = 317
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	#}
+	#progressbartype = {
+		name = "GFX_CHI_LegYuan_GUI_Reformist_Opinion"
+		textureFile1 = "gfx/interface/chi_gui/LegYuan_Reformist_Opinion.dds"
+		textureFile2 = "gfx/interface/chi_gui/LegYuan_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 38
+			y = 317
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	#}
+	#progressbartype = {
+		name = "GFX_CHI_LegYuan_GUI_NSB_Effectiveness"
+		textureFile1 = "gfx/interface/chi_gui/LegYuan_NSB_Effectiveness.dds"
+		textureFile2 = "gfx/interface/chi_gui/LegYuan_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 38
+			y = 317
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	#}
+#}

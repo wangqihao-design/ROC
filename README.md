@@ -98,8 +98,6 @@
 ## 设置
     ```
 	git clone git://github.com/wangqihao-design/ROC/blob/main/tools/WebBased/editor/.gitignore
-	
 	cd editor
-	
 	npm install
     ```

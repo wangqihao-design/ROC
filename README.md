@@ -95,9 +95,11 @@
 繁星编辑器网页版由vue.js作为前端部分, Springboot作为后端，前端框架使用了element-plus,前后端交互采用了anxios，数据库使用了mySQL。采用了前后端分离的布局。
 繁星编辑器桌面版在开发中...计划采用qt作为UI，是一个基于C++的windows应用。可能会推出MacOS版本
 
-##设置
+## 设置
     ```
 	git clone git://github.com/wangqihao-design/ROC/blob/main/tools/WebBased/editor/.gitignore
+	
 	cd editor
+	
 	npm install
     ```
